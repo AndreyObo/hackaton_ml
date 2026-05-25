@@ -1,3 +1,11 @@
+Структура проекта:
+
+- transform.py подготовка данных к исследованию
+- research_and_model.ipynb исследование данных и построение модели
+- main.py api
+- model_provider.py класс для управления моделью и трансформации данных для api
+- utils.py pydantic модели
+
 Инициализация проекта:
 
 - python -m venv venv
