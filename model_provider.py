@@ -27,8 +27,6 @@ class ModelProvider:
         return NONE_TAG if value is None else value
     
 
-    from datetime import datetime
-
     def _get_day_part(self, visit_time: str) -> str:
         try:
             dt_obj = datetime.strptime(visit_time, '%H:%M:%S')
